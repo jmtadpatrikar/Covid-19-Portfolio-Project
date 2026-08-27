@@ -83,7 +83,7 @@ Use MySQL Workbench's Table Data Import Wizard to import `CovidDeaths.xlsx` and 
 
 ### 2. Run the exploratory analysis
 
-[`Covid Project script.sql`](./my%20scripts/Covid%20Project%20script.sql) covers:
+[`Covid Data Exploration script.sql`](https://github.com/jmtadpatrikar/Covid-19-Portfolio-Project/blob/67434cadf1beb40f6f26c93553c2e52a83b8429a/Covid%20Data%20Exploration%20script.sql) covers:
 
 - UK case-to-death and case-to-population comparisons
 - Countries with the highest infection and death rates relative to population
