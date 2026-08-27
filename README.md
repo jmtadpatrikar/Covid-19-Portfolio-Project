@@ -60,21 +60,6 @@ This project uses a historical snapshot of the [Our World in Data COVID-19 datas
 - **Source files:** `CovidDeaths.xlsx` and `CovidVaccinations.xlsx`, imported into MySQL Workbench with the Table Data Import Wizard
 - **Data availability:** The project includes the source Excel files and Tableau-ready exports.
 
-## Repository structure
-
-```text
-.
-├── my scripts/
-│   ├── Covid Project script.sql       # Exploratory analysis and vaccination queries
-│   └── Tableau scripts.sql            # Four result sets exported for Tableau Public
-├── Tableau Tables/                    # CSV/Excel extracts used by the dashboard
-├── Tableau Dash/
-│   └── Covid Dash.twb                 # Tableau workbook
-├── CovidDeaths.xlsx                   # Historical cases and deaths data
-├── CovidVaccinations.xlsx             # Historical vaccination data
-└── README.md
-```
-
 ## SQL workflow
 
 ### 1. Prepare the source tables
@@ -95,7 +80,7 @@ Use MySQL Workbench's Table Data Import Wizard to import `CovidDeaths.xlsx` and 
 
 ### 3. Export Tableau-ready results
 
-[`Tableau scripts.sql`](./my%20scripts/Tableau%20scripts.sql) produces four result sets for export:
+[`Tableau Visualisation scripts.sql`](https://github.com/jmtadpatrikar/Covid-19-Portfolio-Project/blob/424343da8139c3a6f60f7480f89a87fe0a79d9ac/SQL%20scripts/Tableau%20Visualisation%20scripts.sql) produces four result sets for export:
 
 1. Global case, death, and reported death-percentage metrics
 2. Total reported deaths by continent
